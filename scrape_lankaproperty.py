@@ -101,6 +101,43 @@ def firecrawl_scrape(api_key: str, url: str, formats, timeout=120):
     return None
 
 
+def extract_images(data, base_url) -> list:
+    """Pull image URLs (property photos) out of a Firecrawl scrape result."""
+    found = []
+    seen = set()
+
+    def add(raw):
+        if not raw:
+            return
+        absolute = urljoin(base_url, raw.strip()).split("#")[0]
+        if not absolute.lower().startswith(("http://", "https://")):
+            return
+        # Keep only real image assets; drop tracking pixels / icons / data URIs.
+        if not re.search(r"\.(jpe?g|png|webp|gif|avif)(\?|$)", absolute, re.IGNORECASE):
+            return
+        if re.search(r"(sprite|icon|logo|placeholder|blank|spacer|1x1|pixel)",
+                     absolute, re.IGNORECASE):
+            return
+        if absolute not in seen:
+            seen.add(absolute)
+            found.append(absolute)
+
+    blob = (data.get("html") or "") + "\n" + (data.get("markdown") or "")
+
+    # 1) Markdown image syntax: ![alt](url)
+    for m in re.findall(r"!\[[^\]]*\]\(([^)\s]+)", blob):
+        add(m)
+    # 2) <img src="...">  and lazy-load variants (data-src, data-original, srcset)
+    for m in re.findall(r'<img[^>]+?(?:src|data-src|data-original)=["\']([^"\']+)["\']',
+                        blob, re.IGNORECASE):
+        add(m)
+    for srcset in re.findall(r'srcset=["\']([^"\']+)["\']', blob, re.IGNORECASE):
+        for part in srcset.split(","):
+            add(part.strip().split(" ")[0])
+
+    return found
+
+
 def extract_property_links(data, base_url) -> list:
     """Pull candidate property-ad URLs out of a Firecrawl scrape result."""
     found = set()
@@ -183,17 +220,20 @@ def main():
     records = []
     for i, url in enumerate(property_urls, 1):
         print(f"  [{i}/{len(property_urls)}] {url}")
-        data = firecrawl_scrape(args.api_key, url, ["markdown"])
+        data = firecrawl_scrape(args.api_key, url, ["markdown", "html"])
         if not data:
             records.append({"url": url, "error": "scrape failed"})
             continue
         meta = data.get("metadata", {}) or {}
+        images = extract_images(data, url)
         records.append({
             "url": url,
             "title": meta.get("title", ""),
             "description": meta.get("description", ""),
+            "images": images,
             "markdown": data.get("markdown", ""),
         })
+        print(f"      {len(images)} image(s)")
         time.sleep(args.delay)
 
     # --- Phase 3: write outputs ----------------------------------------------
@@ -216,6 +256,10 @@ def main():
                 continue
             f.write(f"Title: {rec.get('title','')}\n")
             f.write(f"Description: {rec.get('description','')}\n")
+            imgs = rec.get("images", []) or []
+            f.write(f"\n--- Images ({len(imgs)}) ---\n")
+            for img in imgs:
+                f.write(img + "\n")
             f.write("\n--- Content ---\n")
             f.write(rec.get("markdown", "") + "\n")
             f.write("-" * 80 + "\n\n")
