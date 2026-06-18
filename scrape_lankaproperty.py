@@ -107,6 +107,52 @@ def firecrawl_scrape(api_key: str, url: str, formats, timeout=120):
 # under /includes/ or /images/) is site boilerplate repeated on every page.
 PROPERTY_PHOTO_RE = re.compile(r"lankapropertyweb\.com/pics/\d+/", re.IGNORECASE)
 
+# --- Markdown cleaning ----------------------------------------------------
+# Firecrawl markdown for a detail page is ~90k chars, mostly the site's mega
+# navigation menus and footer forms. The actual listing runs from its single-#
+# H1 title (nav uses ####) down to the first form/footer/boilerplate heading.
+_CLEAN_H1_RE = re.compile(r"^#\s+\S")
+_CLEAN_END_RE = re.compile(
+    r"^(#+\s*)?(Request a call back|Next Steps for Buyers|Top Searches|"
+    r"Featured Projects|Check Availability|Share this property|Report this AD|"
+    r"Please enter your details|Please Enter Your Details|Navigation|"
+    r"We value your privacy|Cookie Settings|Email property to a friend|"
+    r"Contact Advertiser)\b", re.IGNORECASE)
+_CLEAN_INLINE_IMG_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+_CLEAN_CURRENCY_RE = re.compile(
+    r"^(USD|GBP|EUR|JPY|INR|AUD|CAD|CNY|RUB|SGD|AED)\b[\s\d,\.]*$")
+
+
+def clean_markdown(md: str) -> str:
+    """Strip nav/footer/forms from a detail-page markdown, keeping the listing."""
+    if not md:
+        return ""
+    lines = md.splitlines()
+    start = next((i for i, l in enumerate(lines) if _CLEAN_H1_RE.match(l.strip())), None)
+    if start is None:
+        return ""
+    end = len(lines)
+    for j in range(start + 1, len(lines)):
+        if _CLEAN_END_RE.match(lines[j].strip()):
+            end = j
+            break
+    out, blank = [], 0
+    for l in lines[start:end]:
+        l = _CLEAN_INLINE_IMG_RE.sub("", l).rstrip()  # drop decorative icons, keep text
+        s = l.strip()
+        if _CLEAN_CURRENCY_RE.match(s):
+            continue
+        if s.lower() in ("show more", "show less"):
+            continue
+        if s == "":
+            blank += 1
+            if blank > 1:
+                continue
+        else:
+            blank = 0
+        out.append(l)
+    return "\n".join(out).strip()
+
 
 def extract_images(data, base_url) -> list:
     """Pull genuine property-photo URLs out of a Firecrawl scrape result."""
@@ -242,12 +288,15 @@ def main():
             continue
         meta = data.get("metadata", {}) or {}
         images = extract_images(data, url)
+        raw_md = data.get("markdown", "")
+        clean_md = "" if "404" in (meta.get("title", "") or "") else clean_markdown(raw_md)
         records.append({
             "url": url,
             "title": meta.get("title", ""),
             "description": meta.get("description", ""),
             "images": images,
-            "markdown": data.get("markdown", ""),
+            "markdown_clean": clean_md,
+            "markdown": raw_md,
         })
         print(f"      {len(images)} image(s)")
         time.sleep(args.delay)
@@ -255,9 +304,24 @@ def main():
     # --- Phase 3: write outputs ----------------------------------------------
     json_path = f"{args.out}.json"
     txt_path = f"{args.out}.txt"
+    clean_md_path = f"{args.out}_clean.md"
 
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
+
+    # Copy-paste-friendly cleaned markdown (listing content only, no nav/footer).
+    cleaned = [r for r in records if r.get("markdown_clean")]
+    with open(clean_md_path, "w", encoding="utf-8") as f:
+        f.write("# LankaPropertyWeb — Colombo Rentals "
+                "(House / Apartment / Commercial, 3-room)\n")
+        f.write(f"_{len(cleaned)} properties scraped via Firecrawl_\n\n---\n\n")
+        for i, rec in enumerate(cleaned, 1):
+            imgs = rec.get("images", []) or []
+            f.write(f"## Property {i}\n\n**Source:** {rec['url']}\n\n")
+            f.write(f"**Photos ({len(imgs)}):**\n")
+            for img in imgs:
+                f.write(f"- {img}\n")
+            f.write("\n" + rec["markdown_clean"] + "\n\n---\n\n")
 
     with open(txt_path, "w", encoding="utf-8") as f:
         f.write("LankaPropertyWeb — Colombo rentals (House / Apartment / Commercial)\n")
@@ -280,7 +344,8 @@ def main():
             f.write(rec.get("markdown", "") + "\n")
             f.write("-" * 80 + "\n\n")
 
-    print(f"\n==> Done.\n    Text : {txt_path}\n    JSON : {json_path}")
+    print(f"\n==> Done.\n    Text     : {txt_path}\n    JSON     : {json_path}"
+          f"\n    Clean MD : {clean_md_path}")
 
 
 if __name__ == "__main__":
