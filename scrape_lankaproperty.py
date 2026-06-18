@@ -166,6 +166,8 @@ def main():
                     help="Firecrawl API key (or set FIRECRAWL_API_KEY env var)")
     ap.add_argument("--max-pages", type=int, default=20,
                     help="Max number of search-result pages to walk (default 20)")
+    ap.add_argument("--max-properties", type=int, default=0,
+                    help="Cap on number of properties to scrape (0 = no cap)")
     ap.add_argument("--delay", type=float, default=1.0,
                     help="Seconds to wait between requests (default 1.0)")
     ap.add_argument("--out", default="scraped_data",
@@ -207,7 +209,14 @@ def main():
         if not new:
             print("    no new listings -> reached the end")
             break
+        # Stop early once we have enough property URLs.
+        if args.max_properties and len(property_urls) >= args.max_properties:
+            print(f"    reached --max-properties ({args.max_properties}) -> stopping pagination")
+            break
         time.sleep(args.delay)
+
+    if args.max_properties:
+        property_urls = property_urls[:args.max_properties]
 
     print(f"==> Total unique property URLs: {len(property_urls)}")
     if not property_urls:
