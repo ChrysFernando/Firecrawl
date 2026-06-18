@@ -101,8 +101,15 @@ def firecrawl_scrape(api_key: str, url: str, formats, timeout=120):
     return None
 
 
+# A genuine property photo on LankaPropertyWeb is served from the per-listing
+# gallery path: /pics/<property-id>/<id>_<timestamp>_<n>.jpeg
+# Everything else (logos, app badges, featured-dev banners on r2.dev, UI chrome
+# under /includes/ or /images/) is site boilerplate repeated on every page.
+PROPERTY_PHOTO_RE = re.compile(r"lankapropertyweb\.com/pics/\d+/", re.IGNORECASE)
+
+
 def extract_images(data, base_url) -> list:
-    """Pull image URLs (property photos) out of a Firecrawl scrape result."""
+    """Pull genuine property-photo URLs out of a Firecrawl scrape result."""
     found = []
     seen = set()
 
@@ -115,8 +122,8 @@ def extract_images(data, base_url) -> list:
         # Keep only real image assets; drop tracking pixels / icons / data URIs.
         if not re.search(r"\.(jpe?g|png|webp|gif|avif)(\?|$)", absolute, re.IGNORECASE):
             return
-        if re.search(r"(sprite|icon|logo|placeholder|blank|spacer|1x1|pixel)",
-                     absolute, re.IGNORECASE):
+        # Keep only this listing's gallery photos, not site chrome / banners / ads.
+        if not PROPERTY_PHOTO_RE.search(absolute):
             return
         if absolute not in seen:
             seen.add(absolute)
