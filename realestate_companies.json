@@ -450,24 +450,6 @@
     "address": ""
   },
   {
-    "company": "Superline Travels",
-    "is_real_estate": false,
-    "city": "Rajagiriya",
-    "website": "https://www.rome2rio.com/s/Nugegoda/Rajagiriya",
-    "domain": "rome2rio.com",
-    "phones": [
-      "+94112588588",
-      "+94114343475",
-      "+94117433433",
-      "+94763222239",
-      "+94766161881",
-      "+94777382186"
-    ],
-    "whatsapp": [],
-    "email": "info@superline.lk",
-    "address": "Rajagiriya, Sri Lanka"
-  },
-  {
     "company": "Lavinia Properties Lanka",
     "is_real_estate": true,
     "city": "Colombo",
@@ -479,5 +461,50 @@
     "whatsapp": [],
     "email": "info@laviniapropertieslanka.com",
     "address": "125, Fife Rd, Colombo 05"
+  },
+  {
+    "company": "Elite Properties Consultancy (PVT) LTD",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://elitepropertiessl.com/",
+    "domain": "elitepropertiessl.com",
+    "phones": [
+      "+94761186850",
+      "+94777380625"
+    ],
+    "whatsapp": [
+      "+94777380625"
+    ],
+    "email": "elitepropertiessl@gmail.com",
+    "address": "Galleface Terrace, Colombo 03"
+  },
+  {
+    "company": "Aitken Spence PLC",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.aitkenspence.com/our-expertise/services/property-management",
+    "domain": "aitkenspence.com",
+    "phones": [
+      "+94112308308",
+      "+94112445406"
+    ],
+    "whatsapp": [],
+    "email": "info@aitkenspence.lk",
+    "address": "315, Vauxhall Street, Colombo 02, Sri Lanka."
+  },
+  {
+    "company": "Villa Management PVT LTD",
+    "is_real_estate": true,
+    "city": "Unawatuna",
+    "website": "https://villamanagementsrilanka.com/",
+    "domain": "villamanagementsrilanka.com",
+    "phones": [
+      "+94704400188"
+    ],
+    "whatsapp": [
+      "+94704400188"
+    ],
+    "email": "hello@villamanagementsrilanka.com",
+    "address": "Villa Management PVT LTD, Unawatuna, Sri Lanka"
   }
 ]
