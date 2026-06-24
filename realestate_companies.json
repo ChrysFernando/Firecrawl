@@ -1,0 +1,33 @@
+[
+  {
+    "company": "73 Avenue Realtors",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://73avenuerealtors.com/",
+    "domain": "73avenuerealtors.com",
+    "phones": [
+      "+94763607373"
+    ],
+    "whatsapp": [
+      "+94763607373"
+    ],
+    "email": "info@73avenuerealtors.com",
+    "address": "75/7 Ward Pl, Colombo 00700"
+  },
+  {
+    "company": "Real Mark Property (Pvt) Ltd",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://realmark.lk/",
+    "domain": "realmark.lk",
+    "phones": [
+      "+94117007669",
+      "+94772488100"
+    ],
+    "whatsapp": [
+      "+94772488100"
+    ],
+    "email": "contact@realmark.lk",
+    "address": "Colombo, Sri Lanka"
+  }
+]
