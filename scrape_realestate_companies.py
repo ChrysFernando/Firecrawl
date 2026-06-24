@@ -40,6 +40,27 @@ SEARCH_QUERIES = [
     "site:yellowpages.lk real estate Colombo",
     "site:lankapropertyweb.com agents Colombo",
     "property management company Colombo Sri Lanka contact",
+    # --- expansion queries ---
+    "real estate (Pvt) Ltd Colombo Sri Lanka contact number",
+    "property sales company Colombo Sri Lanka whatsapp",
+    "real estate brokers Colombo Sri Lanka phone number",
+    "house for sale agent Colombo Sri Lanka contact",
+    "land sale company Colombo Sri Lanka whatsapp",
+    "commercial property agent Colombo Sri Lanka contact",
+    "real estate agency Kollupitiya Bambalapitiya Wellawatte",
+    "real estate agency Kohuwala Maharagama Boralesgamuwa contact",
+    "real estate agency Kelaniya Wattala Ja-Ela Sri Lanka",
+    "real estate agency Sri Jayawardenepura Kotte Pelawatte",
+    "property consultants Colombo Sri Lanka contact number",
+    "apartment sales agent Colombo Sri Lanka whatsapp",
+    "real estate firm Colombo 04 06 08 Sri Lanka contact",
+    "site:ikman.lk real estate agent Colombo",
+    "site:findqo.lk real estate Colombo",
+    "site:adsearch.lk real estate Colombo",
+    "luxury apartment agent Colombo Sri Lanka contact number",
+    "real estate investment company Colombo Sri Lanka contact",
+    "property developers Colombo Sri Lanka contact whatsapp",
+    "real estate negotiator Colombo Sri Lanka phone",
 ]
 
 EXTRACT_SCHEMA = {
@@ -136,6 +157,19 @@ def main():
         sys.exit("ERROR: set FIRECRAWL_API_KEY")
     target = int(os.environ.get("TARGET", "130"))
 
+    out_json = "realestate_companies.json"
+    # Load existing records so an expansion run appends instead of overwriting.
+    records = []
+    done_domains = set()
+    if os.path.exists(out_json):
+        try:
+            records = json.load(open(out_json, encoding="utf-8"))
+            done_domains = {r.get("domain") for r in records}
+            print(f"==> loaded {len(records)} existing companies "
+                  f"({len(done_domains)} domains) - will append new ones")
+        except Exception:
+            records = []
+
     # --- Phase 1: discover candidate URLs -----------------------------------
     print("==> Phase 1: discovering company pages via search")
     candidates = {}          # domain -> url (prefer a contact page)
@@ -156,13 +190,13 @@ def main():
 
     # --- Phase 2: scrape each candidate -------------------------------------
     print("\n==> Phase 2: extracting contact details")
-    records = []
-    out_json = "realestate_companies.json"
     seen_phones = set()
     for i, (d, url) in enumerate(cand, 1):
         if len([r for r in records if r.get("phones") or r.get("whatsapp")]) >= target:
             print(f"  reached target ({target}) -> stopping")
             break
+        if d in done_domains:
+            continue
         print(f"  [{i}/{len(cand)}] {d}")
         b = firecrawl("scrape", {
             "url": url,
