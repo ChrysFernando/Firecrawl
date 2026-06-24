@@ -29,5 +29,455 @@
     ],
     "email": "contact@realmark.lk",
     "address": "Colombo, Sri Lanka"
+  },
+  {
+    "company": "Grace Properties",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.graceproperties.lk/contact/",
+    "domain": "graceproperties.lk",
+    "phones": [
+      "+94703001134",
+      "+94740470407",
+      "+94761922518"
+    ],
+    "whatsapp": [
+      "+94761922518"
+    ],
+    "email": "jennifer@graceproperties.lk",
+    "address": "No 1/119/410, Bauddhaloka Mawatha,Colombo 07 , Sri Lanka 00700"
+  },
+  {
+    "company": "Ceylon Estate Agents",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.ceylonestateagents.com/?srsltid=AfmBOop9zRgXNYvy7EymF3sona4ArnGRiDD6k5bg8sjLukBEgwb4921s",
+    "domain": "ceylonestateagents.com",
+    "phones": [
+      "+94775742574"
+    ],
+    "whatsapp": [
+      "+94775742574"
+    ],
+    "email": "info@ceylonestateagents.com",
+    "address": "Colombo, Sri Lanka"
+  },
+  {
+    "company": "Real Estate Agent Colombo",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.yocale.com/b/realestateagentcmb",
+    "domain": "yocale.com",
+    "phones": [
+      "+94711582112"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": "1 Rotunda Gardens, Colombo 00300, Sri Lanka"
+  },
+  {
+    "company": "Nire Realtors",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.nirerealtors.com/",
+    "domain": "nirerealtors.com",
+    "phones": [
+      "+94711622982"
+    ],
+    "whatsapp": [
+      "+94711622982"
+    ],
+    "email": "",
+    "address": ""
+  },
+  {
+    "company": "Mahas Real Estate",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://mahasrealestate.com/",
+    "domain": "mahasrealestate.com",
+    "phones": [
+      "+94768000302"
+    ],
+    "whatsapp": [
+      "+94768000302"
+    ],
+    "email": "yes@mahasrealestate.com",
+    "address": "2nd Floor, McLaren's Building, 123 Bauddhaloka Mw, Colombo 4. Sri Lanka."
+  },
+  {
+    "company": "Atlanka Realtors (Private) Limited",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.atlanka.com/",
+    "domain": "atlanka.com",
+    "phones": [
+      "+94775146176"
+    ],
+    "whatsapp": [
+      "+94775146176"
+    ],
+    "email": "",
+    "address": "John Rodrigo Mawatha, Moratuwa, Sri Lanka"
+  },
+  {
+    "company": "Online Property Promotion",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.propertypromotion.lk/p/blog-page.html",
+    "domain": "propertypromotion.lk",
+    "phones": [
+      "+94717570580"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": ""
+  },
+  {
+    "company": "Pan Global Property",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://panglobalproperty.lk/",
+    "domain": "panglobalproperty.lk",
+    "phones": [
+      "+94115300100",
+      "+94722500700",
+      "+94722700900"
+    ],
+    "whatsapp": [
+      "+94722700900"
+    ],
+    "email": "info@panglobalproperty.com",
+    "address": "No.351/1, Duplication Road, Colombo 03, Sri Lanka"
+  },
+  {
+    "company": "Prime Lands",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.primelands.lk/",
+    "domain": "primelands.lk",
+    "phones": [
+      "+94112030890",
+      "+94112699822"
+    ],
+    "whatsapp": [],
+    "email": "info@primelands.lk",
+    "address": "No.75, D.S. Senanayake Mawatha, Borella, Colombo-08, Sri Lanka"
+  },
+  {
+    "company": "Bhoomi Realty Holdings",
+    "is_real_estate": true,
+    "city": "Ethul Kotte",
+    "website": "https://bhoomirealty.lk/",
+    "domain": "bhoomirealty.lk",
+    "phones": [
+      "+94112030802",
+      "+94112075060",
+      "+94112093906",
+      "+94719136666",
+      "+94719152222"
+    ],
+    "whatsapp": [],
+    "email": "info@bhoomirealty.lk",
+    "address": "No 885 Kotte Rd, Ethul Kotte."
+  },
+  {
+    "company": "Lanka Real Estate",
+    "is_real_estate": true,
+    "city": "Galle",
+    "website": "https://lankarealestate.com/sale/about-us/",
+    "domain": "lankarealestate.com",
+    "phones": [
+      "+94777720249",
+      "+94777760615"
+    ],
+    "whatsapp": [
+      "+94777760615"
+    ],
+    "email": "sales@lankarealestate.com",
+    "address": "16th century Portuguese Fort of Galle, Sri Lanka"
+  },
+  {
+    "company": "Mister T Real Estate",
+    "is_real_estate": true,
+    "city": "Sri Jayawardenepura Kotte",
+    "website": "https://mistert.lk/",
+    "domain": "mistert.lk",
+    "phones": [
+      "+94773252566"
+    ],
+    "whatsapp": [],
+    "email": "info@mistert.lk",
+    "address": "8/6 1st Ln, Sri Jayawardenepura Kotte 11222, Sri Lanka"
+  },
+  {
+    "company": "PropertyGuide ikman",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://propertyguide.lk/en",
+    "domain": "propertyguide.lk",
+    "phones": [
+      "+94770788788"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": ""
+  },
+  {
+    "company": "Khane Properties (Pvt) Ltd",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.khane.lk/",
+    "domain": "khane.lk",
+    "phones": [
+      "+94114848848"
+    ],
+    "whatsapp": [],
+    "email": "info@khane.com",
+    "address": ""
+  },
+  {
+    "company": "RE/MAX Sri Lanka",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.remax.lk/",
+    "domain": "remax.lk",
+    "phones": [
+      "+94117001700",
+      "+94776667780"
+    ],
+    "whatsapp": [],
+    "email": "admin@remax.lk",
+    "address": ""
+  },
+  {
+    "company": "Ceylon Real Estate",
+    "is_real_estate": true,
+    "city": "Galle",
+    "website": "https://ceylonrealestate.com/",
+    "domain": "ceylonrealestate.com",
+    "phones": [
+      "+94777911192"
+    ],
+    "whatsapp": [
+      "+94777911192"
+    ],
+    "email": "shane@ceylonrealestate.com",
+    "address": ""
+  },
+  {
+    "company": "Lanka Property Market",
+    "is_real_estate": true,
+    "city": "Battaramulla",
+    "website": "https://lankapropertymarket.com/property-type/apartment/",
+    "domain": "lankapropertymarket.com",
+    "phones": [
+      "+94711589615",
+      "+94740804675"
+    ],
+    "whatsapp": [],
+    "email": "info@lankapropertymarket.com",
+    "address": "Bunt Road, Battaramulla"
+  },
+  {
+    "company": "Colombo Property",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.fastbase.com/countryindex/sri-lanka/s/short-term-apartment-rental-agency",
+    "domain": "fastbase.com",
+    "phones": [
+      "+94727199900"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": "Spathodea Ave"
+  },
+  {
+    "company": "AKARA Apartments",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://akaraapartments.lk/",
+    "domain": "akaraapartments.lk",
+    "phones": [
+      "+94743012977",
+      "+94773434631",
+      "+94773744156",
+      "+94778978277"
+    ],
+    "whatsapp": [],
+    "email": "info@akaraapartments.lk",
+    "address": "20/8 Fairfield gardens"
+  },
+  {
+    "company": "Sri Lanka Luxury Property",
+    "is_real_estate": true,
+    "city": "Rajagiriya",
+    "website": "https://srilankaluxuryproperty.com/contact-us/",
+    "domain": "srilankaluxuryproperty.com",
+    "phones": [
+      "+94719120000"
+    ],
+    "whatsapp": [],
+    "email": "info@srilankaluxuryproperty.com",
+    "address": "No 11/A, School lane, Nawala, Rajagiriya, Sri Lanka"
+  },
+  {
+    "company": "EK Properties",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://expatkey.com/city/colombo-03/",
+    "domain": "expatkey.com",
+    "phones": [
+      "+94777813582"
+    ],
+    "whatsapp": [
+      "+94777813582"
+    ],
+    "email": "hello@expatkey.com",
+    "address": "Colombo, Sri Lanka"
+  },
+  {
+    "company": "Colombo Real Estate & Relocation Services",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://colomborealestate.com/",
+    "domain": "colomborealestate.com",
+    "phones": [
+      "+94117396630",
+      "+94777668885"
+    ],
+    "whatsapp": [
+      "+94777668885"
+    ],
+    "email": "hello@colombores.com",
+    "address": "No. 66 Welikada Plaza, Rajagiriya, Sri Lanka"
+  },
+  {
+    "company": "Lanka Estates Co.",
+    "is_real_estate": true,
+    "city": "Sri Lanka",
+    "website": "https://www.zalanka.com/sri-lanka/Real-Estate",
+    "domain": "zalanka.com",
+    "phones": [
+      "+94776344758"
+    ],
+    "whatsapp": [
+      "+94776344758"
+    ],
+    "email": "elanka.world@outlook.com",
+    "address": "E Lanka World (pvt) Ltd Sri Lanka"
+  },
+  {
+    "company": "Mondinion",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.mondinion.com/Real_Estate_Agents/country/Sri_Lanka/from/50/",
+    "domain": "mondinion.com",
+    "phones": [
+      "+94716351482",
+      "+94771149387",
+      "+94772672252",
+      "+94772960333",
+      "+94774948638",
+      "+94777235780",
+      "+94777315001",
+      "+94777322072",
+      "+94777424994",
+      "+94777907303"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": ""
+  },
+  {
+    "company": "Ceylon Brokers",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://ceylonbrokers.lk/",
+    "domain": "ceylonbrokers.lk",
+    "phones": [
+      "+94741137025"
+    ],
+    "whatsapp": [
+      "+94741137025"
+    ],
+    "email": "hello@ceylonbrokers.lk",
+    "address": "Colombo, Sri Lanka"
+  },
+  {
+    "company": "DRN Agencies",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.expat.com/en/business/asia/sri-lanka/2_real-estate/125_real-estate-brokers/",
+    "domain": "expat.com",
+    "phones": [
+      "+94711255464",
+      "+94711400199",
+      "+94727003322",
+      "+94743113575"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": "345/58, Kuruppu Lane, Borella, Colombo 08, Western"
+  },
+  {
+    "company": "Prime Realty",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://primerealty.lk/",
+    "domain": "primerealty.lk",
+    "phones": [
+      "+94706295644",
+      "+94707007111"
+    ],
+    "whatsapp": [
+      "+94706295644"
+    ],
+    "email": "hello@primerealty.lk",
+    "address": "No: 75, D.S. Senanayake Mawatha, Borella, Colombo-08, Sri Lanka."
+  },
+  {
+    "company": "DreamHomes Realty",
+    "is_real_estate": true,
+    "city": "",
+    "website": "https://dreamhomes.lk/agent/1930d0f9-5246-485c-8385-7c985b7eefdc",
+    "domain": "dreamhomes.lk",
+    "phones": [
+      "+94774446063"
+    ],
+    "whatsapp": [],
+    "email": "udesh.senadeera@dreamhomes.com",
+    "address": ""
+  },
+  {
+    "company": "Superline Travels",
+    "is_real_estate": false,
+    "city": "Rajagiriya",
+    "website": "https://www.rome2rio.com/s/Nugegoda/Rajagiriya",
+    "domain": "rome2rio.com",
+    "phones": [
+      "+94112588588",
+      "+94114343475",
+      "+94117433433",
+      "+94763222239",
+      "+94766161881",
+      "+94777382186"
+    ],
+    "whatsapp": [],
+    "email": "info@superline.lk",
+    "address": "Rajagiriya, Sri Lanka"
+  },
+  {
+    "company": "Lavinia Properties Lanka",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://laviniapropertieslanka.com/",
+    "domain": "laviniapropertieslanka.com",
+    "phones": [
+      "+94112585885"
+    ],
+    "whatsapp": [],
+    "email": "info@laviniapropertieslanka.com",
+    "address": "125, Fife Rd, Colombo 05"
   }
 ]
