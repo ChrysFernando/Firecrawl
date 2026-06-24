@@ -1,6 +1,6 @@
 # Colombo Real Estate Companies — Contact Numbers
 
-_34 companies with at least one published number_
+_55 companies with at least one published number_
 
 ## 1. 73 Avenue Realtors
 - City: Colombo
@@ -239,4 +239,151 @@ _34 companies with at least one published number_
 - Email: hello@villamanagementsrilanka.com
 - Address: Villa Management PVT LTD, Unawatuna, Sri Lanka
 - Website: https://villamanagementsrilanka.com/
+
+## 35. Millennium Real Estate Pvt Ltd
+- City: Colombo
+- Phone: +94775398096
+- Website: https://millenniumrealestate.lk/
+
+## 36. Access Real Estate
+- City: Colombo
+- Phone: +94112302358, +94112302427
+- Email: info@accessrealestate.lk
+- Address: Access Tower (South), Level 27, 278/4, Union Place, Colombo 02, Sri Lanka.
+- Website: http://www.accessrealestate.lk/Contact
+
+## 37. GHR Global
+- City: Colombo
+- Phone: +94112662099, +94112665907, +94768787878
+- Email: info@globalgrouplk.com
+- Address: No 52, Sir Marcus Fernando Mawatha, Colombo 07, Sri Lanka.
+- Website: https://www.globalhousing.lk/contact
+
+## 38. Aduwata Gewal Idam
+- City: Kegalle
+- Phone: +94742963837
+- WhatsApp: +94742963837
+- Email: sales@aduwatagewalidam.lk
+- Address: 02/449, Main Street, Kegalle, Sri Lanka
+- Website: https://aduwatagewalidam.lk/terms-and-conditions/
+
+## 39. Prime Residencies
+- City: Colombo
+- Phone: +94112699822, +94706295591, +94710777666, +94716699822
+- WhatsApp: +94706295591, +94716699822
+- Email: info@primeresidencies.lk
+- Address: No.75, D.S. Senanayake Mawatha, Colombo 08, Sri Lanka
+- Website: https://www.primeresidencies.lk/contact-us/
+
+## 40. Home Lands Holding (Pvt) Ltd
+- City: Battaramulla
+- Phone: +94702444111, +94705031031, +94706009922
+- WhatsApp: +94705031031
+- Email: info@homelands.lk
+- Address: No.1087, Pannipitiya Rd, Battaramulla, SRI LANKA
+- Website: https://www.homelands.lk/
+
+## 41. Araliya Lands
+- City: Kadawatha
+- Phone: +94112920719, +94112920720, +94112922822, +94777771049
+- WhatsApp: +94777771049
+- Email: info@araliyalands.com
+- Address: No. 381/B, Kandy Road, Mahara, Kadawatha, Sri Lanka.
+- Website: https://www.araliyalands.com/
+
+## 42. Terralanka
+- City: Colombo
+- Phone: +94766470323
+- Email: hello@terralanka.com
+- Address: Colombo, Sri Lanka
+- Website: https://www.terralanka.com/contact
+
+## 43. Home Lands Skyline
+- City: Battaramulla
+- Phone: +94702693693, +94703002666, +94711999222
+- Email: info@homelandsskyline.lk
+- Address: 1087, Pannipitiya Road, Battaramulla 10120, Sri Lanka
+- Website: https://www.homelandsskyline.lk/contact-us
+
+## 44. Landbelt Private Limited
+- City: Sri Lanka
+- Phone: +94704004555
+- WhatsApp: +94704004555
+- Email: landbelt81@gmail.com
+- Address: Sri Lanka
+- Website: https://landbelt.lk/contact
+
+## 45. Colombo Property Hub (Group Company)
+- City: Colombo
+- Phone: +94779349138
+- Email: sumesh@colombopropertyhub.com
+- Website: https://sinhala.lankainformation.lk/directory/professions/brokers/2619-colombo-property-hub-group-company
+
+## 46. r real state
+- City: Moratuwa
+- Phone: +94117110858, +94777801742
+- Email: rivindu+5@dvtechlabs.com
+- Address: 123 main streen, Moratuwa, Sri Lanka
+- Website: https://dev.cplk.org/agencies/r-real-state
+
+## 47. CommercialProperty.lk
+- City: Colombo
+- Phone: +94117110858, +94777801742
+- Email: info@commercialproperty.lk
+- Address: 932A 3, 1 Kotte Rd, Sri Jayawardenepura Kotte, 10100
+- Website: https://commercialproperty.lk/
+
+## 48. Lanka Ads
+- City: Dehiwala
+- Phone: +94743637133
+- Email: contactabcads@gmail.com
+- Address: No: 103592/M, Galle Road, Dehiwala, Sri Lanka
+- Website: https://lankaad.org/index.php/ad/lanka-ads-173956619946965096
+
+## 49. Lanka Virtual Heights Property
+- City: Sri Lanka
+- Phone: +94112075075, +94112761005, +94114010203, +94114328598, +94117444011, +94117800000, +94117833833, +94707209109, +94714920402, +94719659949, +94722700900, +94725678678, +94760300600, +94766037373, +94767086099, +94771486666, +94773069640, +94773951560, +94774441117, +94774569589, +94775660000, +94776460967, +94777208710, +94777720249, +94779914407
+- Website: https://www.lankavirtualheightsproperty.com/services/real-estate-agents-web-site/218
+
+## 50. Property Mate
+- City: Colombo
+- Phone: +94757000550, +94775702992
+- WhatsApp: +94775702992
+- Email: propertymatelk@gmail.com
+- Address: Colombo
+- Website: https://propertymate.lk/
+
+## 51. RE/MAX NORTH REALTY
+- City: Jaffna
+- Phone: +94214680780, +94756850000, +94775660000
+- WhatsApp: +94775660000
+- Email: info@remaxnorth.lk
+- Address: 111C Kannathiddy Road, Jaffna, Sri Lanka
+- Website: https://remaxnorth.lk/city/ja-ela-2/
+
+## 52. Realtor Lanka Consultants (Pvt) Ltd.
+- City: Ja-Ela
+- Phone: +94772585878
+- Website: https://www.realtorlanka.com/tag/ja-ela/
+
+## 53. John Keells Properties
+- City: Ja-Ela
+- Phone: +94706062062
+- Email: info@viman.lk
+- Address: 525, Colombo-Negombo Road, Ja-Ela
+- Website: https://www.viman.lk/
+
+## 54. Ceylon Property
+- City: Colombo
+- Phone: +94112056566, +94771243140
+- Email: support@ceylonproperty.lk
+- Address: 410/126, Bauddhaloka Mawatha, Colombo 07
+- Website: https://www.ceylonproperty.lk/property/4268-brand-new-house-for-sale-at-ja-ela-lake-city
+
+## 55. REALITY LANKA
+- City: Colombo
+- Phone: +94714920402
+- WhatsApp: +94714920402
+- Email: realitylanka06@gmail.com
+- Website: https://www.realitylanka.com/
 

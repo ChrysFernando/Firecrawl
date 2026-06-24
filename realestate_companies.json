@@ -506,5 +506,338 @@
     ],
     "email": "hello@villamanagementsrilanka.com",
     "address": "Villa Management PVT LTD, Unawatuna, Sri Lanka"
+  },
+  {
+    "company": "Millennium Real Estate Pvt Ltd",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://millenniumrealestate.lk/",
+    "domain": "millenniumrealestate.lk",
+    "phones": [
+      "+94775398096"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": ""
+  },
+  {
+    "company": "Access Real Estate",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "http://www.accessrealestate.lk/Contact",
+    "domain": "accessrealestate.lk",
+    "phones": [
+      "+94112302358",
+      "+94112302427"
+    ],
+    "whatsapp": [],
+    "email": "info@accessrealestate.lk",
+    "address": "Access Tower (South), Level 27, 278/4, Union Place, Colombo 02, Sri Lanka."
+  },
+  {
+    "company": "GHR Global",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.globalhousing.lk/contact",
+    "domain": "globalhousing.lk",
+    "phones": [
+      "+94112662099",
+      "+94112665907",
+      "+94768787878"
+    ],
+    "whatsapp": [],
+    "email": "info@globalgrouplk.com",
+    "address": "No 52, Sir Marcus Fernando Mawatha, Colombo 07, Sri Lanka."
+  },
+  {
+    "company": "Aduwata Gewal Idam",
+    "is_real_estate": true,
+    "city": "Kegalle",
+    "website": "https://aduwatagewalidam.lk/terms-and-conditions/",
+    "domain": "aduwatagewalidam.lk",
+    "phones": [
+      "+94742963837"
+    ],
+    "whatsapp": [
+      "+94742963837"
+    ],
+    "email": "sales@aduwatagewalidam.lk",
+    "address": "02/449, Main Street, Kegalle, Sri Lanka"
+  },
+  {
+    "company": "Prime Residencies",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.primeresidencies.lk/contact-us/",
+    "domain": "primeresidencies.lk",
+    "phones": [
+      "+94112699822",
+      "+94706295591",
+      "+94710777666",
+      "+94716699822"
+    ],
+    "whatsapp": [
+      "+94706295591",
+      "+94716699822"
+    ],
+    "email": "info@primeresidencies.lk",
+    "address": "No.75, D.S. Senanayake Mawatha, Colombo 08, Sri Lanka"
+  },
+  {
+    "company": "Home Lands Holding (Pvt) Ltd",
+    "is_real_estate": true,
+    "city": "Battaramulla",
+    "website": "https://www.homelands.lk/",
+    "domain": "homelands.lk",
+    "phones": [
+      "+94702444111",
+      "+94705031031",
+      "+94706009922"
+    ],
+    "whatsapp": [
+      "+94705031031"
+    ],
+    "email": "info@homelands.lk",
+    "address": "No.1087, Pannipitiya Rd, Battaramulla, SRI LANKA"
+  },
+  {
+    "company": "Araliya Lands",
+    "is_real_estate": true,
+    "city": "Kadawatha",
+    "website": "https://www.araliyalands.com/",
+    "domain": "araliyalands.com",
+    "phones": [
+      "+94112920719",
+      "+94112920720",
+      "+94112922822",
+      "+94777771049"
+    ],
+    "whatsapp": [
+      "+94777771049"
+    ],
+    "email": "info@araliyalands.com",
+    "address": "No. 381/B, Kandy Road, Mahara, Kadawatha, Sri Lanka."
+  },
+  {
+    "company": "Terralanka",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.terralanka.com/contact",
+    "domain": "terralanka.com",
+    "phones": [
+      "+94766470323"
+    ],
+    "whatsapp": [],
+    "email": "hello@terralanka.com",
+    "address": "Colombo, Sri Lanka"
+  },
+  {
+    "company": "Home Lands Skyline",
+    "is_real_estate": true,
+    "city": "Battaramulla",
+    "website": "https://www.homelandsskyline.lk/contact-us",
+    "domain": "homelandsskyline.lk",
+    "phones": [
+      "+94702693693",
+      "+94703002666",
+      "+94711999222"
+    ],
+    "whatsapp": [],
+    "email": "info@homelandsskyline.lk",
+    "address": "1087, Pannipitiya Road, Battaramulla 10120, Sri Lanka"
+  },
+  {
+    "company": "Landbelt Private Limited",
+    "is_real_estate": true,
+    "city": "Sri Lanka",
+    "website": "https://landbelt.lk/contact",
+    "domain": "landbelt.lk",
+    "phones": [
+      "+94704004555"
+    ],
+    "whatsapp": [
+      "+94704004555"
+    ],
+    "email": "landbelt81@gmail.com",
+    "address": "Sri Lanka"
+  },
+  {
+    "company": "Colombo Property Hub (Group Company)",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://sinhala.lankainformation.lk/directory/professions/brokers/2619-colombo-property-hub-group-company",
+    "domain": "sinhala.lankainformation.lk",
+    "phones": [
+      "+94779349138"
+    ],
+    "whatsapp": [],
+    "email": "sumesh@colombopropertyhub.com",
+    "address": ""
+  },
+  {
+    "company": "r real state",
+    "is_real_estate": true,
+    "city": "Moratuwa",
+    "website": "https://dev.cplk.org/agencies/r-real-state",
+    "domain": "dev.cplk.org",
+    "phones": [
+      "+94117110858",
+      "+94777801742"
+    ],
+    "whatsapp": [],
+    "email": "rivindu+5@dvtechlabs.com",
+    "address": "123 main streen, Moratuwa, Sri Lanka"
+  },
+  {
+    "company": "CommercialProperty.lk",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://commercialproperty.lk/",
+    "domain": "commercialproperty.lk",
+    "phones": [
+      "+94117110858",
+      "+94777801742"
+    ],
+    "whatsapp": [],
+    "email": "info@commercialproperty.lk",
+    "address": "932A 3, 1 Kotte Rd, Sri Jayawardenepura Kotte, 10100"
+  },
+  {
+    "company": "Lanka Ads",
+    "is_real_estate": true,
+    "city": "Dehiwala",
+    "website": "https://lankaad.org/index.php/ad/lanka-ads-173956619946965096",
+    "domain": "lankaad.org",
+    "phones": [
+      "+94743637133"
+    ],
+    "whatsapp": [],
+    "email": "contactabcads@gmail.com",
+    "address": "No: 103592/M, Galle Road, Dehiwala, Sri Lanka"
+  },
+  {
+    "company": "Lanka Virtual Heights Property",
+    "is_real_estate": true,
+    "city": "Sri Lanka",
+    "website": "https://www.lankavirtualheightsproperty.com/services/real-estate-agents-web-site/218",
+    "domain": "lankavirtualheightsproperty.com",
+    "phones": [
+      "+94112075075",
+      "+94112761005",
+      "+94114010203",
+      "+94114328598",
+      "+94117444011",
+      "+94117800000",
+      "+94117833833",
+      "+94707209109",
+      "+94714920402",
+      "+94719659949",
+      "+94722700900",
+      "+94725678678",
+      "+94760300600",
+      "+94766037373",
+      "+94767086099",
+      "+94771486666",
+      "+94773069640",
+      "+94773951560",
+      "+94774441117",
+      "+94774569589",
+      "+94775660000",
+      "+94776460967",
+      "+94777208710",
+      "+94777720249",
+      "+94779914407"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": ""
+  },
+  {
+    "company": "Property Mate",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://propertymate.lk/",
+    "domain": "propertymate.lk",
+    "phones": [
+      "+94757000550",
+      "+94775702992"
+    ],
+    "whatsapp": [
+      "+94775702992"
+    ],
+    "email": "propertymatelk@gmail.com",
+    "address": "Colombo"
+  },
+  {
+    "company": "RE/MAX NORTH REALTY",
+    "is_real_estate": true,
+    "city": "Jaffna",
+    "website": "https://remaxnorth.lk/city/ja-ela-2/",
+    "domain": "remaxnorth.lk",
+    "phones": [
+      "+94214680780",
+      "+94756850000",
+      "+94775660000"
+    ],
+    "whatsapp": [
+      "+94775660000"
+    ],
+    "email": "info@remaxnorth.lk",
+    "address": "111C Kannathiddy Road, Jaffna, Sri Lanka"
+  },
+  {
+    "company": "Realtor Lanka Consultants (Pvt) Ltd.",
+    "is_real_estate": true,
+    "city": "Ja-Ela",
+    "website": "https://www.realtorlanka.com/tag/ja-ela/",
+    "domain": "realtorlanka.com",
+    "phones": [
+      "+94772585878"
+    ],
+    "whatsapp": [],
+    "email": "",
+    "address": ""
+  },
+  {
+    "company": "John Keells Properties",
+    "is_real_estate": true,
+    "city": "Ja-Ela",
+    "website": "https://www.viman.lk/",
+    "domain": "viman.lk",
+    "phones": [
+      "+94706062062"
+    ],
+    "whatsapp": [],
+    "email": "info@viman.lk",
+    "address": "525, Colombo-Negombo Road, Ja-Ela"
+  },
+  {
+    "company": "Ceylon Property",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.ceylonproperty.lk/property/4268-brand-new-house-for-sale-at-ja-ela-lake-city",
+    "domain": "ceylonproperty.lk",
+    "phones": [
+      "+94112056566",
+      "+94771243140"
+    ],
+    "whatsapp": [],
+    "email": "support@ceylonproperty.lk",
+    "address": "410/126, Bauddhaloka Mawatha, Colombo 07"
+  },
+  {
+    "company": "REALITY LANKA",
+    "is_real_estate": true,
+    "city": "Colombo",
+    "website": "https://www.realitylanka.com/",
+    "domain": "realitylanka.com",
+    "phones": [
+      "+94714920402"
+    ],
+    "whatsapp": [
+      "+94714920402"
+    ],
+    "email": "realitylanka06@gmail.com",
+    "address": ""
   }
 ]
