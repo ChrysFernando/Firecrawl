@@ -1,13 +1,25 @@
-Company,Top Executive (Name),Title,Company Phone,Website,HQ Address (Colombo),Source / Verification
-John Keells Holdings PLC,Krishan Balendra,Chairperson-CEO,+94 11 2306000,keells.com,"117 Sir Chittampalam A Gardiner Mw, Colombo 02",keells.com/leadership (official)
-Hayleys PLC,Mohan Pandithage,Chairman & Chief Executive,+94 11 2627801,hayleys.com,"400 Deans Road, Colombo 10",hayleys.com/contact (official)
-Hemas Holdings PLC,Ashish Chandra,Group CEO (Chairman: Ajith Fernando),+94 11 4731731,hemas.com,"Hemas House, 75 Braybrooke Place, Colombo 02",hemas.com/about (official)
-Dialog Axiata PLC,Supun Weerasinghe,Group Chief Executive,+94 11 7100200,dialog.lk,"475 Union Place, Colombo 02",dialog.lk/structure-and-management (official)
-Aitken Spence PLC,Stasshani Jayawardena,Executive Chairperson (Dep. Chair & MD: Dr Parakrama Dissanayake),+94 11 2308308,aitkenspence.com,"315 Vauxhall St, Colombo 02",aitkenspence.com / adaderana biz
-Commercial Bank of Ceylon PLC,Sanath Manatunge,Managing Director / CEO,+94 11 2486000,combank.lk,"Commercial House, 21 Sir Razik Fareed Mw, Colombo 01",combank.lk (official)
-Sampath Bank PLC,Sanjaya Gunawardana,Managing Director / CEO (from Sep 2025),+94 11 2300260,sampath.lk,"110 Sir James Peiris Mw, Colombo 02",EconomyNext / sampath.lk (official)
-Softlogic Holdings PLC,Ashok Pathirage,Chairman & Managing Director,+94 11 5575000,softlogic.lk,"14 De Fonseka Place, Colombo 05",softlogic.lk (official)
-LOLC Holdings PLC,Ishara Nanayakkara,Executive Chairman (Group MD/CEO: Kapila Jayawardena),+94 11 5880880,lolc.com,"100/1 Sri Jayawardenepura Mw, Rajagiriya",lolc.com (official)
-Cargills (Ceylon) PLC,Imtiaz Abdul Wahid,Deputy Chairman & Managing Director,(verify via website),cargillsceylon.com,"40 York Street, Colombo 01",cargillsceylon.com / MarketScreener
-Nestlé Lanka PLC,Bernie Stefan,Chairman & Managing Director,(verify via website),nestle.lk,"Nestlé Lanka, Colombo 03",nestle.lk / island.lk
-Ceylon Tobacco Company PLC,Fariyha Subhani,Managing Director & CEO,(verify via website),ceylontobacco.com,"178 Srimath Ramanathan Mw, Colombo 15",ceylontobacco.com / MarketScreener
+Company,Top Executive (Name),Title,Company Phone,Website,HQ Address,Sector,Source / Verification
+John Keells Holdings PLC,Krishan Balendra,Chairperson-CEO,+94 11 2306000,keells.com,"117 Sir Chittampalam A Gardiner Mw, Colombo 02",Diversified conglomerate,official leadership page
+Hayleys PLC,Mohan Pandithage,Chairman & Chief Executive,+94 11 2627801,hayleys.com,"400 Deans Road, Colombo 10",Diversified conglomerate,official contact page
+Hemas Holdings PLC,Ashish Chandra,Group CEO,+94 11 4731731,hemas.com,"75 Braybrooke Place, Colombo 02",Healthcare/FMCG conglomerate,official about page
+Dialog Axiata PLC,Supun Weerasinghe,Group Chief Executive,+94 11 7100200,dialog.lk,"475 Union Place, Colombo 02",Telecom,official management page
+Aitken Spence PLC,Stasshani Jayawardena,Executive Chairperson,+94 11 2308308,aitkenspence.com,"315 Vauxhall St, Colombo 02",Diversified conglomerate,adaderana / official
+Commercial Bank of Ceylon PLC,Sanath Manatunge,Managing Director / CEO,+94 11 2486000,combank.lk,"21 Sir Razik Fareed Mw, Colombo 01",Bank,official
+Sampath Bank PLC,Sanjaya Gunawardana,Managing Director / CEO,+94 11 2300260,sampath.lk,"110 Sir James Peiris Mw, Colombo 02",Bank,EconomyNext / official
+Hatton National Bank PLC,Damith Pallewatte,Managing Director / CEO,+94 11 2664664,hnb.lk,"479 T.B. Jayah Mw, Colombo 10",Bank,Daily FT / official
+NDB Bank (National Development Bank PLC),Kelum Edirisinghe,Director / CEO,+94 11 2448448,ndbbank.com,"40 Nawam Mawatha, Colombo 02",Bank,Daily FT / official
+Nations Trust Bank PLC,Hemantha Gunetilleke,Director / CEO,+94 11 4313131,nationstrust.com,"46/58 Nawam Mawatha, Colombo 02",Bank,official media release
+Softlogic Holdings PLC,Ashok Pathirage,Chairman & Managing Director,+94 11 5575000,softlogic.lk,"14 De Fonseka Place, Colombo 05",Diversified conglomerate,official
+LOLC Holdings PLC,Ishara Nanayakkara,Executive Chairman,+94 11 5880880,lolc.com,"100/1 Sri Jayawardenepura Mw, Rajagiriya",Financial conglomerate,official
+CIC Holdings PLC,Aroshan Seresinhe,Group Chief Executive Officer,+94 11 2359359,cic.lk,"199 Kew Road, Colombo 02",Agri/chemicals conglomerate,official / rocketreach
+Sri Lanka Telecom PLC,(Group CEO — leadership in transition; verify),Group Chief Executive,+94 11 2021000,slt.lk,"Lotus Road, Colombo 01",Telecom,official (recent changes)
+Cargills (Ceylon) PLC,Imtiaz Abdul Wahid,Deputy Chairman & MD,(via website),cargillsceylon.com,"40 York Street, Colombo 01",Retail / FMCG,MarketScreener / official
+Nestlé Lanka PLC,Bernie Stefan,Chairman & Managing Director,(via website),nestle.lk,Colombo 03,FMCG / food,island.lk / official
+Ceylon Tobacco Company PLC,Fariyha Subhani,Managing Director & CEO,(via website),ceylontobacco.com,"178 Srimath Ramanathan Mw, Colombo 15",Tobacco / FMCG,MarketScreener / official
+AIA Insurance Lanka PLC,Chathuri Munaweera,CEO / Executive Director,(via website),aialife.com.lk,"AIA Tower, 92 Dharmapala Mw, Colombo 07",Insurance,official our-people page
+Ceylinco Life Insurance Ltd,Thushara Ranasinghe,Managing Director / CEO,(via website),ceylincolife.com,"106 Havelock Road, Colombo 05",Insurance,official management page
+Abans PLC,Aban Pestonjee,Chairperson & Founder,(via website),abansgroup.com,"498 Galle Road, Colombo 03",Retail / electronics,official / DailyNews
+Melstacorp PLC (DCSL Group),D.H.S. (Harry) Jayawardena,Chairman,(via website),melstacorp.com,"Aitken Spence Tower II, 315 Vauxhall St, Colombo 02",Beverage / diversified,Melstacorp AR
+Sunshine Holdings PLC,Shyam Sathasivam,Group CEO,(via website),sunshineholdings.lk,"No 60 Dharmapala Mw, Colombo 03",Healthcare/agri conglomerate,official governance page
+Royal Ceramics Lanka PLC (Rocell),M.Y.A. Perera,Managing Director (Chairman: Dhammika Perera),(via website),rocell.com,"No 57 Jetawana Rd, Colombo 14",Ceramics / tiles,CSE annual report
+Vallibel One PLC,Dhammika Perera,Chairman,(via website),vallibelone.com,"Level 5, 310 High Level Rd, Nawinna",Investment conglomerate,official / Wikipedia
